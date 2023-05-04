@@ -1,0 +1,127 @@
+/* styling av dropdown kanppen */
+.dropbtn {
+    background-color: none;
+    color: none;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #ddd;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: none;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: none;
+}
+
+.show {
+    display: block;
+}
+
+.bild{
+    height: 50px;
+    width: 50px;
+}
+
+.ligor{
+    list-style-type: none;
+    list-style: none;
+}
+
+.body1 {
+    background-image: url('img/arsenal.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+p {
+    font-size: 2.5vw;
+  }
+  h1 {
+    font-size: 5vw;
+  }
+  h2{
+    font-size: 3.5vw;
+  }
+  h3{
+    font-size: 2.5vw;
+  }
+
+  .sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidebar .closebtn {
+    position: relative;
+    top: 0;
+    right: 25px;
+    font-size: 26px;
+    margin-left: 50px;
+  }
+
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+   
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+
+  .openbtna:hover {
+    background-color: #444;
+  }
+
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
