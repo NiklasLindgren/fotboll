@@ -1,18 +1,21 @@
+/* Varje class får en del av gridden via kommandet grid-area:  */
+
 .item1 { grid-area: header;}
 .item2 { grid-area: menu;}
 .item3 { grid-area: main;}
 .item4 { grid-area: right;}
 .item5 { grid-area: footer;}
 .meny2 {grid-area: menu;}
+.menynocript {grid-area: menu;}
 
 
-
+/* Visar hur min grid ser ut. Den är uppdelad i 3 columns och 6 rows      */
 .grid-container {
     display: grid;
     grid-template-areas:
     'menu header header header header header'
-    'menu main main main right right' 
-    'menu footer footer footer footer footer';
+    'main main main main right right' 
+    'footer footer footer footer footer footer';
     gap: 10px;
     background-color: none;
     padding: 10px;
@@ -25,6 +28,8 @@
     
 }
 
+
+/* Media queryn aktiveras när skärmen är mindre än 700px. Min standrad meny byts ut mot en annan meny. Länkarna till ligorna försvinner. Jag behåller samma uppläg med gridden, men jag ändrar antalet columns 4 och rows till 4. Men menyn har bara en row och column. Detta är för att menyn inte ska ta upp för mycket plats  */
 @media screen and (max-width:700px) {
     .grid-container{
         display: grid;
@@ -43,6 +48,7 @@
     .item2{
         display: none;
     }
+   
 
     
     

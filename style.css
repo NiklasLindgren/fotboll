@@ -8,6 +8,7 @@
     cursor: pointer;
 }
 
+/* Färgen ändras när man har muspekaren över menyn */
 .dropbtn:hover, .dropbtn:focus {
     background-color: #ddd;
 }
@@ -17,6 +18,7 @@
     display: inline-block;
 }
 
+/* Förklarar hur innehållet i menyn ska se ut */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -27,6 +29,7 @@
     z-index: 1;
 }
 
+/*  Förklarar hur texten i innehållet ska se ut */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
