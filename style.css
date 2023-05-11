@@ -37,24 +37,29 @@
     display: block;
 }
 
+
 .dropdown a:hover {
     background-color: none;
 }
 
+/* Elementet som gör att innehållet droppar ned i blockformat */
 .show {
     display: block;
 }
 
+/* Justerar min menybild */
 .bild{
     height: 50px;
     width: 50px;
 }
 
+/* Stylar hur ligalänkarna ska vara */
 .ligor{
     list-style-type: none;
     list-style: none;
 }
 
+/* Stylar bakgrunden på arsenal.html */
 .body1 {
     background-image: url('img/arsenal.png');
     background-size: cover;
@@ -63,6 +68,7 @@
     
 }
 
+/* Fixar med hur textens storlek förhåller sig när skärmen krymper */
 p {
     font-size: 2.5vw;
   }
@@ -76,6 +82,7 @@ p {
     font-size: 2.5vw;
   }
 
+  /* Fixar med den delen som dyker upp när man klickar på menyn t.ex. hur mycket playts den tar upp, hur snabbt den dyker upp mm */
   .sidebar{
     height: 100%;
     width: 0;
@@ -89,6 +96,7 @@ p {
     padding-top: 60px;
   }
 
+  /* Fixar med hur texten i menyn ska se ut */
   .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -98,10 +106,12 @@ p {
     transition: 0.3s;
   }
 
+  /* färgen på innehållet i menyn när man har muspekaren över */
   .sidebar a:hover {
     color: #f1f1f1;
   }
 
+  /* Reglerar storleken på stängknappen, hur mycket utrymme det ska vara efter stängknappen */
   .sidebar .closebtn {
     position: relative;
     top: 0;
@@ -109,7 +119,8 @@ p {
     font-size: 26px;
     margin-left: 50px;
   }
-
+  
+  /* fixar med hur menyknappen ser ut */
   .openbtn {
     font-size: 20px;
     cursor: pointer;
@@ -119,10 +130,12 @@ p {
     border: none;
   }
 
+  /* Hur ljus skuggan när man har muspekaren över ska vara */
   .openbtna:hover {
     background-color: #444;
   }
 
+  /* hur snabbt texten utöver menyn flyttar på sig och hur mycket utrymme det ska vara emellan */
   #main {
     transition: margin-left .5s;
     padding: 16px;
