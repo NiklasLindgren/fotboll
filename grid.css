@@ -55,6 +55,7 @@
     }
 }
 
+/* Ordnar hur bilderna placerar sig längst ned */
 .item5{
     grid-template-areas: footer;
 }
