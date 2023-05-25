@@ -50,6 +50,9 @@
     .item2{
         display: none;
     }
+    .body1{
+        background-image: none;
+    }
 }
 
 .item5{
