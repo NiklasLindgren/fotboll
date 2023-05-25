@@ -52,25 +52,13 @@
     }
 }
 
-
-
-
-@media  screen and (max-width:600px) {
-    .column{
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
-
-    @media  screen and (max-width:800px) {
-        .column{
-            -ms-flex: 50%;
-            flex: 50%;
-            max-width: 50%;
-        }
-
-    }
-
-
-    
+.bild1{
+    grid-area: 1/3;
 }
+.bild2{
+   grid-area: 3/5; 
+}
+.bild3{
+    grid-area: 5/7;
+}
+
