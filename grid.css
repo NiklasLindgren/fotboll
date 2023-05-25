@@ -53,12 +53,12 @@
 }
 
 .bild1{
-    grid-area: 1/3;
+    grid-area: 3/2;
 }
 .bild2{
-   grid-area: 3/5; 
+   grid-area: 3/4; 
 }
 .bild3{
-    grid-area: 5/7;
+    grid-area: 3/7;
 }
 
