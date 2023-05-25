@@ -5,8 +5,10 @@
 .item3 { grid-area: main;}
 .item4 { grid-area: right;}
 .item5 { grid-area: footer;}
-.meny2 {grid-area: menu;}
+.meny2 { grid-area: menu;}
 .menynocript {grid-area: menu;}
+.row{ grid-area: footer;}
+.column{ grid-area: footer;}
 
 
 /* Visar hur min grid ser ut. Den är uppdelad i 3 columns och 6 rows      */
