@@ -144,14 +144,18 @@ p {
 
   /* kod som styr hur bildgalleriet ser ut och agerar */
   .bild1{
-    width: 100%;
+    width: 25%;
     height: auto;
   }
   .bild2{
-    width: 100%;
+    width: 25%;
     height: auto;
   }
   .bild3{
-    width: 100%;
+    width: 25%;
+    height: auto;
+  }
+  .bild4{
+    width: 25%;
     height: auto;
   }
