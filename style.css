@@ -1,7 +1,5 @@
 /* styling av dropdown kanppen */
 .dropbtn {
-    background-color: none;
-    color: none;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -22,7 +20,6 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: none;
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -38,9 +35,7 @@
 }
 
 
-.dropdown a:hover {
-    background-color: none;
-}
+
 
 /* Elementet som gör att innehållet droppar ned i blockformat */
 .show {
