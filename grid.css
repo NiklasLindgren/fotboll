@@ -51,6 +51,18 @@
     .body1{
         background-image: none;
     }
+    p {
+        font-size: 3.5vw;
+      }
+      h1 {
+        font-size: 6vw;
+      }
+      h2{
+        font-size: 4.5vw;
+      }
+      h3{
+        font-size: 3.5vw;
+      }
 }
 
 /* Ordnar hur bilderna placerar sig längst ned   */
