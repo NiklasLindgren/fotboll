@@ -65,16 +65,16 @@
 
 /* Fixar med hur textens storlek förhåller sig när skärmen krymper */
 p {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
   h1 {
-    font-size: 5vw;
+    font-size: 5.5vw;
   }
   h2{
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   h3{
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   /* Fixar med den delen som dyker upp när man klickar på menyn t.ex. hur mycket playts den tar upp, hur snabbt den dyker upp mm */
