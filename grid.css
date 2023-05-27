@@ -19,7 +19,6 @@
     'main main main main right right' 
     'footer footer footer footer footer footer';
     gap: 10px;
-    background-color: none;
     padding: 10px;
 }
 
@@ -41,7 +40,6 @@
         'main main main main'
         'footer footer footer footer';
         gap: 10px;
-        background-color: none;
         padding: 10px;
     }
     .item4{
@@ -55,7 +53,7 @@
     }
 }
 
-/* Ordnar hur bilderna placerar sig längst ned */
+/* Ordnar hur bilderna placerar sig längst ned   */
 .item5{
     grid-template-areas: footer;
 }
